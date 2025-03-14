@@ -47,12 +47,12 @@ En mi caso mi ruta fue: http://127.0.0.1:8000, copia y pega la ruta en tu navega
     password: 12345678
 
 
-    Nota: el siguiente usuario esta registrado con su campo 'activo' con un valor false. Al iniciar seión con este usuario solo tendrás acceso a la pantalla de inicio ya que todas las rutas de gestión de carros estan protegidas con un middleware personalizado que verifica si el usuario que esta intentando acceder a una de esas rutas posee un valor en su campo 'activo' igual a true
-
 
     email: inactivo@gmail.com
 
     password: 12345678
+
+ Nota: este ultimo usuario esta registrado con su campo 'activo' con un valor false. Al iniciar seión con este usuario solo tendrás acceso a la pantalla de inicio ya que todas las rutas de gestión de carros estan protegidas con un middleware personalizado que verifica si el usuario que esta intentando acceder a una de esas rutas posee un valor en su campo 'activo' igual a true.
         
 
 7) Si lo deseas tambien podrías registrarte como un nuevo usuario (Todos los usuarios que se registren mediante el formulario de registro tendran por defecto su campo 'activo' igual a true)
