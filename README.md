@@ -21,11 +21,12 @@ DB_PASSWORD= //Escribe aquí tu contraseña
 
 3) Dentro de la carpeta del proyecto debes ejecutar los siguientes comandos uno por uno
 
-php artisan key:generate
 
-php artisan composer install
+composer install
 
 npm install
+
+php artisan key:generate
 
 php artisan migrate
 
