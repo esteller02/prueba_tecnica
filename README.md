@@ -5,7 +5,7 @@ NOTA: No utilicé Laravel Breeze como starter kit debido a que este usa tailwind
 1) Crear una base de datos llamada 'concesionario'
 
 
-2) Copiar el archivo.env.example y crear un archivo llamado .env. Luego, editar en el archivo .env las siguientes variables
+2) Copiar el archivo.env.example y crear un archivo llamado .env y pegar en este todo lo que contiene el archivo.env.example. Luego, editar en el archivo .env las siguientes variables
 
 DB_CONNECTION=pgsql
 
