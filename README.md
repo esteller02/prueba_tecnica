@@ -5,7 +5,7 @@ NOTA: No utilicé Laravel Breeze como starter kit debido a que este usa tailwind
 1) Crear una base de datos llamada 'concesionario'
 
 
-2) Editar en el archivo .env las siguientes variables
+2) Copiar el archivo.env.example y crear un archivo llamado .env. Luego, editar en el archivo .env las siguientes variables
 
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
@@ -37,11 +37,15 @@ En mi caso mi ruta fue: http://127.0.0.1:8000, copia y pega la ruta en tu navega
 
 
     email: esteller03@gmail.com
+
     password: 12345678
 
 
     Nota: el siguiente usuario esta registrado con su campo 'activo' con un valor false. Al iniciar seión con este usuario solo tendrás acceso a la pantalla de inicio ya que todas las rutas de gestión de carros estan protegidas con un middleware personalizado que verifica si el usuario que esta intentando acceder a una de esas rutas posee un valor en su campo 'activo' igual a true
+
+    
     email: inactivo@gmail.com
+
     password: 12345678
         
 
